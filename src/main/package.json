@@ -1,0 +1,59 @@
+{
+  "name": "main",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@arco-design/web-react": "^2.62.0",
+    "@arco-themes/react-mutacore": "^0.0.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.58",
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.13",
+    "@visactor/react-vchart": "^1.11.1-alpha.6",
+    "@visactor/vchart-arco-theme": "^1.11.0",
+    "canvas-confetti": "^1.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "zustand": "^4.5.2"
+  },
+  "scripts": {
+    "start": "cross-env REACT_APP_ENV=dev react-app-rewired start",
+    "build": "cross-env REACT_APP_ENV=prod GENERATE_SOURCEMAP=false react-app-rewired build",
+    "clean": "rimraf build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@types/canvas-confetti": "^1.6.4",
+    "@types/react-helmet": "^6.1.11",
+    "customize-cra": "^1.0.0",
+    "react-app-rewired": "^2.2.1",
+    "tailwindcss": "^3.4.3"
+  }
+}

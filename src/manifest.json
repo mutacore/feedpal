@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "FeedPal",
+  "short_name": "FeedPal",
+  "description": "Subscribe to blogs you bookmark automatically.",
+  "homepage_url": "https://feedpal.muta.ink",
+  "background": {
+    "service_worker": "background/index.js"
+  },
+  "action": {
+    "default_title": "FeedPal"
+  },
+  "icons": {
+    "128": "asset/icon_128.png"
+  },
+  "permissions": [
+    "storage",
+    "alarms",
+    "background",
+    "bookmarks"
+  ]
+}
